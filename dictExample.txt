@@ -1,0 +1,31 @@
+dict1={'a':'abcd',1:"aaaa",3:50,'c':70,'aa':[1,4,6,8]}
+print(dict1)
+dict1['aa'].insert(2,[22,33,44])
+dict1={'a':'abcd',1:"aaaa"}
+dict2={'a':55,3:70,8:90}
+print(dict1)
+print(dict2)
+dict1.update(dict2)
+print(dict1)
+# for e in dict1:
+#     print(e)
+# for e in dict1.keys():
+#     print(e)
+# for e in dict1.items():
+#     print(e[0],":",e[1])
+
+# print(dict1)
+# print(dict1['a'])
+# dict1[6]=30
+# print(dict1)
+# print(dict1[6])
+# x='a'
+# y=(1,3,4,9)
+# list1=[]
+# print(list1.__hash__())
+# print(x.__hash__())
+# print(x.__hash__())
+# print(x.__hash__())
+# print(y.__hash__())
+# print(y.__hash__())
+# print(y.__hash__())
